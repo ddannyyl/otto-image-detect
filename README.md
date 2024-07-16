@@ -1,1 +1,1 @@
-imgagedetect feature for otto optical system inc.
+image detect feature for Otto Optical System Inc.
