@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Information</title>
+</head>
+<body>
+    <h1>Here is your information: </h1>
+    <h2>Right Eye (OD)</h2>
+    <label for="od_power">POWER:</label>
+    <input type="text" id="od_power" value="{{ info.OD.POWER }}" readonly><br>
+    <label for="od_bc">BC:</label>
+    <input type="text" id="od_bc" value="{{ info.OD.BC }}" readonly><br>
+    <label for="od_dia">DIA:</label>
+    <input type="text" id="od_dia" value="{{ info.OD.DIA }}" readonly><br>
+    
+    <h2>Left Eye (OS)</h2>
+    <label for="os_power">POWER:</label>
+    <input type="text" id="os_power" value="{{ info.OS.POWER }}" readonly><br>
+    <label for="os_bc">BC:</label>
+    <input type="text" id="os_bc" value="{{ info.OS.BC }}" readonly><br>
+    <label for="os_dia">DIA:</label>
+    <input type="text" id="os_dia" value="{{ info.OS.DIA }}" readonly><br>
+    
+    <h2>Raw Extracted Text</h2>
+    <pre>{{ raw_text }}</pre>
+    <a href="/">Upload Another Image</a>
+</body>
+</html>
