@@ -1,6 +1,6 @@
 # Otto Prescription Image OCR Feature
 
-This allows users to upload their contact lens prescription and using an OCR library, the information will be extracted and automatically filled in the template of Otto's. This feature reduces the time it takes for users to fill in their prescription infomration and eliminates the risk of inputting the wrong information
+This allows users to upload their contact lens prescription and using an OCR library, the information will be extracted and automatically filled in the template of Otto's. This feature reduces the time it takes for users to fill in their prescription information and eliminates the risk of inputting the wrong information
 
 ## Getting Started
 
