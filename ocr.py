@@ -17,7 +17,7 @@ def extract_text(image_path):
                 'OS': {'POWER': 'Error', 'BC': 'Error', 'DIA': 'Error'}}, "Error loading image"
 
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) # Convert image to grayscale using OpenCV
-    text = pytesseract.image_to_string(gray) # Extracts text using pytesseract
+    text = pytesseract.image_to_string(gray)  # Extract text from the grayscale image using pytesseract
 
     pattern = re.compile(r'(OD|OS)\s*([\d\.\-]+)\s*([\d\.\-]+)\s*([\d\.\-]+)', re.IGNORECASE) # Compile a regex pattern to match OD and OS measurements
     matches = pattern.findall(text)  # Find all matches of the pattern in the extracted text
