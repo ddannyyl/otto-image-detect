@@ -5,6 +5,7 @@
     ],
     "routes": [
       { "src": "/(.*)", "dest": "ocr.py" }
-    ]
+    ],
+    "pythonVersion": "3.9"
   }
   
